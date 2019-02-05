@@ -7,7 +7,7 @@ def count_a(seq):
 
 
 # main program
-s = input('Please enter a valid sequence: ')
+s = 'AGAGAGAGATAGATAGCTCGAT'
 number_a = count_a(s)
 print('The number of As in the sequence is: ', number_a)
 
