@@ -1,26 +1,36 @@
-def count_bases(seq, letter):
-    counter = 0
-    for elem in seq:
-        if elem.upper() == letter:
-            counter += 1
+def count_bases(seq):
+    counter_a = 0
+    counter_t = 0
+    counter_g = 0
+    counter_c = 0
+    for letter in seq:
+        if letter.upper() == 'A':
+            counter_a += 1
+        elif letter.upper() == 'T':
+            counter_t += 1
+        elif letter.upper() == 'G':
+            counter_g += 1
+        elif letter.upper() == 'C':
+            counter_c += 1
 
-    return  {letter:counter}
 
+
+    dict = {'A': counter_a, 'T': counter_t, 'G': counter_g, 'C': counter_c}
+    return  dict
 #main program
-s = input('Enter a valid sequence to analyze: ')
-print ('This sequence is ', len(s), 'bases in legth')
-print('Base A')
-number_a = count_bases(s, 'A')
-print('The number of As in the sequence is: ', number_a)
-print('Base T')
-number_t = count_bases(s, 'T')
-print('The number of Ts in the sequence is: ', number_t)
-print('Base C')
-number_c = count_bases(s, 'C')
-print('The number of Cs in the sequence is: ', number_c)
-print('Base G')
-number_g = count_bases(s, 'G')
-print('The number of Gs in the sequence is: ', number_g)
+seq = input('Enter a valid sequence to analyze: ')
+l = len(seq)
+
+for k in count_bases(seq).keys():
+    if l > 0:
+        perc = round(100.0*count_bases(seq)[k]/l, 1)
+        print('This sequence is', len(seq), 'bases in length', '\n')
+        print('Base ',k, '\n', 'Counter: {}'.format(count_bases(seq)[k]))
+        print(' Percentage: {}'.format(perc), '%')
+
+
+
+
 
 
 
