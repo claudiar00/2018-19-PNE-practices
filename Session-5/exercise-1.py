@@ -13,8 +13,6 @@ def count_bases(seq):
         elif letter.upper() == 'C':
             counter_c += 1
 
-
-
     dict = {'A': counter_a, 'T': counter_t, 'G': counter_g, 'C': counter_c}
     return  dict
 #main program
