@@ -1,0 +1,14 @@
+SERVER AND CLIENT
+
+There exists the IP address and the network interfaces. On one hand, the ip address can change depending on which computer
+are you connected to. We can also talk about the port, which can only be connected to one thing.
+The IP address consists of a combination of four digits (i.e. 192.168.0.27)
+
+my phone IP address at URJC is: 193.147.77.1
+my computer IP address at URJC is: 10.0.46.163
+teacher IP address is: 212.128.253.64
+
+ping to a computer in the same network
+ping time to my mob phone is:
+ping time to google
+ping to urjc is 212.128.240.50
