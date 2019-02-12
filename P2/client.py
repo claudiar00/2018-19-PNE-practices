@@ -3,8 +3,8 @@ from Seq import Seq
 
 #SERVER IP, PORT
 
-IP = '192.168.0.60'
-PORT = 8098
+IP = '79.159.207.230'
+PORT = 8081
 
 while True:
     sequence = input('Please insert a sequence: ')
