@@ -1,5 +1,5 @@
 import socket
-from Seq_p2 import Seq
+from Seq import Seq
 
 #SERVER IP, PORT
 
@@ -8,7 +8,7 @@ PORT = 8098
 
 while True:
     sequence = input('Please insert a sequence: ')
-    s1 = Seq_p2(sequence)
+    s1 = Seq(sequence)
     s2 = s1.complement()
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
