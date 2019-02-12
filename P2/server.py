@@ -5,7 +5,7 @@ IP = "192.168.0.60"
 PORT = 8098
 MAX_OPEN_REQUESTS = 5
 
-# Counting the number of connections
+# Counting the number of connections in the server
 number_con = 0
 
 # create an INET, STREAMing socket
