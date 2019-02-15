@@ -1,8 +1,10 @@
 import socket
 
 # Configure the Server's IP and PORT
-IP = "79.159.207.230"
-PORT = 8081
+IP = "127.0.0.1" #Thats my computers IP but you could also do it with another IP (like the teacher's 212.128.253.84)or
+# either in the server the teachers IP and on the client your computer IP, it doesnt matter as long as the port is the
+# same
+PORT = 8090
 MAX_OPEN_REQUESTS = 5
 
 # Counting the number of connections in the server
