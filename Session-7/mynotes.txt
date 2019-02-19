@@ -4,11 +4,18 @@ There exists the IP address and the network interfaces. On one hand, the ip addr
 are you connected to. We can also talk about the port, which can only be connected to one thing.
 The IP address consists of a combination of four digits (i.e. 192.168.0.27)
 
+If you want to test a client-server program you have to put in both th same IP and the same PORT
+
+
+
 my phone IP address at URJC is: 193.147.77.1
 my computer IP address at URJC is: 10.0.46.163
 teacher IP address is: 212.128.253.64
 
 ping to a computer in the same network
-ping time to my mob phone is:
-ping time to google
-ping to urjc is 212.128.240.50
+ping time to my mob phone is: 8.398 ms
+ping time to google: 10.455 ms
+ping to urjc is: 13.967 ms
+
+With that you can estimate how far the computer or the terminal where you put the ping is from the IP direction you enter
+in the ping.
