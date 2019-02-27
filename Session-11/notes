@@ -1,0 +1,15 @@
+Session 11 notes
+
+By default, web's port is 80
+The way of communication between web servers and web browser is HTTP, and its necessary to use a GET/ (a petition),
+which is known as request line.
+In this case, the client will be the web browser, while the web server is the server.
+The name of each data is called URL and when we write it down in the browser, we are requesting a web page from the
+server.
+The content-type tells what type of message is going to be send (i.e. Content-type: text/html), and below the content
+type it appears an html code for creating a web page (doctype html)
+
+as a response we should receive a status line with content type and content length.
+Its necessary to always put \r\n after a line of code
+
+
